@@ -16,7 +16,7 @@ else:
         for i in range(n):
             client.login(email,password)
             client.sendmail(email,addreas,msg)
-            print("Tin nhắn đã được gửi tới " + addreas)
+            print('Đã gửi',n,' tin nhắn tới', address)
     except:
         print("Mật khẩu nhập sai vui lòng nhập lại")
     client.quit()
