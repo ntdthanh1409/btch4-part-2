@@ -13,7 +13,7 @@ elif n == 0:
 elif n > 0:
     for i in range(n):
         list1.append(random.randrange(-1000,1001))
-    print("list1 có "+str(n)+" giá trị và "+"tập hợp các phần tử của list1: "+str(list1))
+    print("list1 có "+str(n)+" giá trị nguyên và "+"tập hợp các phần tử của list1: "+str(list1))
 if m < 0:
     print("Vui lòng nhập số nguyên dương để chạy list2")
 elif m == 0:
@@ -21,4 +21,4 @@ elif m == 0:
 elif m > 0:
     for i in range(m):
         list2.append(random.uniform(-1000, 1001))
-    print("list2 có "+str(m)+" giá trị và "+"Tập hợp các phần tử của list2: "+str(list2))
+    print("list2 có "+str(m)+" giá trị thực và "+"Tập hợp các phần tử của list2: "+str(list2))
