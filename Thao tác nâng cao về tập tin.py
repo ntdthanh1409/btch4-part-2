@@ -27,9 +27,3 @@ if m != 0:
         k.write(randomstr())
         k.close()
 print('Đã tạo:', (n+1),'file!')
-
-
-
-
-
-    
