@@ -20,7 +20,7 @@ for i in range(1,n):
     k.close()
 if m != 0:
     k = 'file'+ str(n + 1) +'.txt'
-    k = open(f, mode= 'w')
+    k = open(k, mode= 'w')
     name = random.choice(string.ascii_letters)
     for i in range(m - 1):
         name += random.choice(string.ascii_letters)
