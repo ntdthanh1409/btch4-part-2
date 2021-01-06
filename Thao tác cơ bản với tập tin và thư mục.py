@@ -1,4 +1,6 @@
 import os
+
+
 print("tất cả các tệp và thư mục trong ổ C:")
 path = 'C:\\'
 print(os.listdir(path))
